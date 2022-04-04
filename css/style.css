@@ -1,0 +1,168 @@
+body{
+    text-align: center;
+    padding-top: 90px;
+}
+h1{
+    color: #000000;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+#contBotones{
+    width: 450px;
+    height: 450px;
+    background: #000000;
+    background: #fbff00;
+    text-align: center;
+    color: #000000;
+    background-size: cover;
+   
+}
+
+#contFigura{
+    width: 450px;
+    height: 450px;
+    background: rgb(255, 0, 0);
+    
+}
+
+#figura{
+    width : 180px;
+    height: 180px;
+    background: #ffffff;
+    margin: 0 auto;
+    margin-top: 60px;
+    transition: .5s;
+}
+
+#figura.circulo{
+    border-radius: 70%;
+    transform: rotate(360deg);
+    background: #0c7dfd;
+    margin: 0 auto;
+    margin-top: 60px;
+    transition: .5s;
+}
+
+
+#figura.rombo{
+    border-style : 70%;
+    transform: rotate(45deg);
+    background: #377fd6;
+    margin: 0 auto;
+    margin-top: 60px;
+    transition: 1s;
+}
+
+#figura.triangulo {
+    width: 0; 
+    height: 0; 
+    transform: rotate(270deg);
+    border-left: 100px solid #377fd6;
+    border-top: 100px solid rgb(216, 104, 104) ;
+    border-bottom: 100px solid rgb(216, 104, 104); 
+}
+
+#figura.rectangulohorizontal {
+    width: 200px; 
+    height: 60px; 
+
+}
+
+#figura.rectangulovertical {
+    width: 150px; 
+    height: 300px; 
+
+}
+
+body{
+    background: url(../Imagenes/figu.jpg);
+    text-align: center;
+    color: #000000;
+    background-size: cover;
+  
+}
+
+#fila {
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+#figura.imagen{
+    background: url(../Imagenes/oso.jpg);
+    transition: .5s;
+    transform: rotate(360deg);
+}
+
+
+#figura.subir{
+    transform: translateY(-100px);
+}
+
+#figura.diagonal{
+transform: translateX(120px) translateY(100px);
+}
+
+button{
+    background: transparent;
+    padding: 10px 25px;
+    margin: 10px;
+    border: 2px solid #fd007e;
+    color: rgb(23, 35, 102);
+    font-weight: 600;
+    font-size: 18px;
+    transition: .5s;
+    cursor: pointer;
+
+}
+
+
+button:hover{
+    background: #00e1ff;
+    color: #000000;
+}
+
+input, select{
+    padding: 15px 10;
+    color: #000000;
+}
+
+#contOperaciones{
+    padding: 150px 4px;
+    margin: 10px;
+    border: #0400ff solid #371ec9 ;
+}
+#contOperaciones button{
+    background: #fd002a;
+    
+}
+
+#chat{
+    background: #913342;
+    width: 300px;
+    height: 350px;
+    position: fixed;
+    right: -300px;
+    top: 20%;
+}
+
+    #chat.active{
+        right: 0;
+}
+
+#btnChat{
+    position: fixed;
+    right : -40px;
+    top: 26%;
+    background: #ffee00;
+    transform: rotate(-90deg);
+    transition: .5s;
+   
+}
+#btnCaht.Active{
+    right: 240px;
+    transition: .1s;
+}
+
